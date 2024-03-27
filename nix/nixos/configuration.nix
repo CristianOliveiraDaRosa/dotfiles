@@ -131,6 +131,7 @@
     ripgrep
     jq
     funzzy
+    ngrok
     mypkgs.ergo
 
     # Essential pkgs

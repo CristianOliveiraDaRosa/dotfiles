@@ -132,6 +132,8 @@
     jq
     funzzy
     ngrok
+    ctags
+
     mypkgs.ergo
 
     # Essential pkgs

@@ -1,5 +1,6 @@
 {
   "nodes": {
+<<<<<<< HEAD
     "co-pkgs": {
       "inputs": {
         "nixpkgs": "nixpkgs"
@@ -16,6 +17,27 @@
         "owner": "cristianoliveira",
         "ref": "main",
         "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+
+    "nix-darwin": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1711591334,
+        "narHash": "sha256-9d5ilxxq4CXw44eFw8VFrRneAKex7D8xjn95mwZjgf4=",
+        "owner": "LnL7",
+        "repo": "nix-darwin",
+        "rev": "f0dd0838c3558b59dc3b726d8ab89f5b5e35c297",
+        "type": "github"
+      },
+      "original": {
+        "owner": "LnL7",
+        "repo": "nix-darwin",
         "type": "github"
       }
     },
@@ -54,7 +76,8 @@
     "root": {
       "inputs": {
         "co-pkgs": "co-pkgs",
-        "nixpkgs": "nixpkgs_2"
+        "nix-darwin": "nix-darwin",
+        "nixpkgs": "nixpkgs"
       }
     }
   },

@@ -6,6 +6,7 @@ My dotfiles for setting up a new development environment. :package: :sunglasses:
 
 # What do I use?
 
+  - NIX as package manager and development environment manager
   - ZSH (oh-my-zsh)
   - Neovim
   - Tmux

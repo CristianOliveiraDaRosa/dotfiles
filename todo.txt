@@ -1,1 +1,5 @@
 # TODO move linux specific configs from nix/* to nix/nixos/*
+
+# TODO on osx zsh is still /env/zsh, how to point to nix store
+
+# TODO for sway mimic the "cmd + ctrl + h/l" from yabai
